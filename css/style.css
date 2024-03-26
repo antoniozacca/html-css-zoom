@@ -35,12 +35,12 @@ body{
 
 /* footer */
 .container-footer{
+    justify-content: space-between;
     height: 75px;
-    background-color: gray;
+    background-color: rgb(114, 114, 114);
     display: flex;
 }
 .row-left-footer{
-    width: 20%;
     height: 100%;
     padding: 10px;
     color: white;
@@ -48,7 +48,6 @@ body{
     display: flex;
 }
 .row-center-footer{
-    width: 72%;
     height: 100%;
     padding: 10px;
     color: white;
@@ -57,8 +56,8 @@ body{
     background-color: rgb(114, 114, 114);
 }
 .row-right-footer{
-    width: 8%;
     height: 100%;
+    padding: 10px;
     color: red;
     background-color: rgb(145, 144, 144);
 }
@@ -75,6 +74,8 @@ body{
     left: 80px;
 }
 .padding-left{
-    padding-left: 10px;
+    padding-left: 30px;
 }
-
+.padding-top{
+    padding-top: 15px;
+}
